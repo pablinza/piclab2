@@ -153,7 +153,7 @@ void taskBUT1(void)
                     state = 1;
             } else cnt = 0;
             break;
-        case 1: //Realiza del codigo ROM sensor
+        case 1: //Lectura del codigo ROM sensor
             INTCONbits.GIE=0;
             if(DS18Reset())
             {
