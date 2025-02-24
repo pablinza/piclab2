@@ -1,5 +1,5 @@
 # PICMCU LAB2 pablinza@me.com
-Programacion del Microcontrolador PIC16F887 LAB1
+Programacion del Microcontrolador PIC16F887 LAB2
 
 <p align="center">
   <img src="/images/pic1.png"></img>
