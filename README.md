@@ -15,23 +15,23 @@ Los proyectos se crearon con la version MPLABX 6.25 y el compilador XC8 3.0 vers
 Practicas de Programacion para Microcontroladores PIC16F.
 
 ## Lista de practicas desarrolladas en la Materia
-### - P11 - Lectura de Temperatura 1-Wire   [APPTEMDS18]
+### - P11 - Lectura de Temperatura 1-Wire   [APTEMDS18]
   <p align="center">
   <img src="/images/ap11temds18.png"></img>
 </p>
-El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervales de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
+El programa realiza la lectura de tres sensores de temperatura digital DS18B, a intervales de un segundo, tambien dispone de un pulsador para hacerlectura del codigo rom identificador de cada sensor. Los valores de temperatura se enviar por mensaje UART en grados, Utilza el modulo TMR0 esta configurado para temporizar intervales de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
 
 ### - P12 - Temporizador con Enoder Rotativo [APROTARYTIMER]
 <p align="center">
   <img src="/images/ap12rotarytimer.png"></img>
 </p>
-El programa muestra como implementar un contrlador de trafico para dos fases, utilizando como base de tiempo el temporizador TMR0. Ademas se cuenta con una entrada de alerta SW1 que en caso de fall obliga al controlador a ingreear al modo de mantenimiento en el cual las luces amarillas destellaran. Para descripcion(https://youtu.be/hlDj-E___kY)
+El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador da inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms . Para descripcion(https://youtu.be/hlDj-E___kY)
 
 ### - P13 - Sensor de Humedad y Temperatura en LCD [APDHTNOKIA]
 <p align="center">
   <img src="/images/ap13dhtnokia.png"></img>
 </p>
-Este programa realiza la lectura de los canales analogicos AN0 y AN1, y asi mismo lee el estado del pulsador SW1 de manera concurrente, ademas se enviara por el puerto serial UART la magnitud de las conversiones y el estado del pulsador, en la practica se utilizara un joystick de doble eje y una interfaz graficas para visualizar la informaicon. Para descripcion(https://youtu.be/-FM--FO0nE8)
+Este programa muestra como utilizar la Pantalla Nokia W5110 84x48 pixeles utlizando fuente estaandar de 12x5 pixels. Se muestra en la pantalla el valor de temperatura y humedad relativa proveniente de un sensor dual DHT-11. Para descripcion(https://youtu.be/-FM--FO0nE8)
 
 Adjunto el siguiente link que muestra como compilar estos ejemplos en MPLABX <br />
 [![](http://img.youtube.com/vi/w-GRu89glrg/0.jpg)](http://www.youtube.com/watch?v=w-GRu89glrg "Compilar en MPLABX")
