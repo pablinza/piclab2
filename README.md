@@ -15,11 +15,11 @@ Los proyectos se crearon con la version MPLABX 6.25 y el compilador XC8 3.0 vers
 Practicas de Programacion para Microcontroladores PIC16F.
 
 ## Lista de practicas desarrolladas en la Materia
-### - P11 - Lectura de Temperatura 1-Wire   [APTEMDS18]
+### - P11 - Lectura de Temperatura DS18B [APTEMDS18]
   <p align="center">
   <img src="/images/ap11temds18.png"></img>
 </p>
-El programa realiza la lectura de tres sensores de temperatura digital DS18B, a intervales de un segundo, tambien dispone de un pulsador para hacerlectura del codigo rom identificador de cada sensor. Los valores de temperatura se enviar por mensaje UART en grados, Utilza el modulo TMR0 esta configurado para temporizar intervales de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
+El programa realiza la lectura de tres sensores de temperatura digital DS18B, a intervalos de un segundo, también dispone de un pulsador para hacer lectura del código rom identificador de cada sensor. Los valores de temperatura se enviar por mensaje UART en grados, Utiliza el modulo TMR0 esta configurado para temporizar intervalos de 1ms.(https://youtu.be/kydnK8ixmW8)
 
 ### - P12 - Temporizador con Enoder Rotativo [APROTARYTIMER]
 <p align="center">
