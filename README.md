@@ -21,17 +21,17 @@ Practicas de Programacion para Microcontroladores PIC16F.
 </p>
 El programa realiza la lectura de tres sensores de temperatura digital DS18B, a intervalos de un segundo, también dispone de un pulsador para hacer lectura del código rom identificador de cada sensor. Los valores de temperatura se enviar por mensaje UART en grados, Utiliza el modulo TMR0 esta configurado para temporizar intervalos de 1ms.(https://youtu.be/kydnK8ixmW8)
 
-### - P12 - Temporizador con Enoder Rotativo [APROTARYTIMER]
+### - P12 - Temporizador con Enoder Rotativo [APROTARYTIMER] *En Desarrollo
 <p align="center">
   <img src="/images/ap12rotarytimer.png"></img>
 </p>
-El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador da inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms . Para descripcion(https://youtu.be/hlDj-E___kY)
+El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador da inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms .
 
-### - P13 - Sensor de Humedad y Temperatura en LCD [APDHTNOKIA]
+### - P13 - Sensor de Humedad y Temperatura en LCD [APDHTNOKIA] *En Desarrollo
 <p align="center">
   <img src="/images/ap13dhtnokia.png"></img>
 </p>
-Este programa muestra como utilizar la Pantalla Nokia W5110 84x48 pixeles utlizando fuente estaandar de 12x5 pixels. Se muestra en la pantalla el valor de temperatura y humedad relativa proveniente de un sensor dual DHT-11. Para descripcion(https://youtu.be/-FM--FO0nE8)
+Este programa muestra como utilizar la Pantalla Nokia W5110 84x48 pixeles utlizando fuente estaandar de 12x5 pixels. Se muestra en la pantalla el valor de temperatura y humedad relativa proveniente de un sensor dual DHT-11. 
 
 Adjunto el siguiente link que muestra como compilar estos ejemplos en MPLABX <br />
 [![](http://img.youtube.com/vi/w-GRu89glrg/0.jpg)](http://www.youtube.com/watch?v=w-GRu89glrg "Compilar en MPLABX")
