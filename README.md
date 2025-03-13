@@ -25,7 +25,7 @@ El programa realiza la lectura de tres sensores de temperatura digital DS18B, a 
 <p align="center">
   <img src="/images/ap12rotarytimer.png"></img>
 </p>
-El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador da inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms .
+El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador dar inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms .
 
 ### - P13 - Sensor de Humedad y Temperatura en LCD [APDHTNOKIA] *En Desarrollo
 <p align="center">
