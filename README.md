@@ -21,11 +21,11 @@ Practicas de Programacion para Microcontroladores PIC16F.
 </p>
 El programa realiza la lectura de tres sensores de temperatura digital DS18B, a intervalos de un segundo, también dispone de un pulsador para hacer lectura del código rom identificador de cada sensor. Los valores de temperatura se enviar por mensaje UART en grados, Utiliza el modulo TMR0 esta configurado para temporizar intervalos de 1ms.(https://youtu.be/kydnK8ixmW8)
 
-### - P12 - Temporizador con Codificador Rotatorio [APROTARYTIMER] *En Desarrollo
+### - P12 - Temporizador con Codificador Rotatorio [APROTARYTIMER]
 <p align="center">
   <img src="/images/ap12rotarytimer.png"></img>
 </p>
-El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador dar inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms .
+El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador dar inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms. (https://youtu.be/c5E6q9o31oM)
 
 ### - P13 - Sensor de Humedad y Temperatura en LCD [APDHTNOKIA] *En Desarrollo
 <p align="center">
