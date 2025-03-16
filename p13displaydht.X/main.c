@@ -70,12 +70,7 @@ void MCUSetup(void)
     TMR0 = 131; //256-(time/((pre)*(4/Fosc))) time=0.001 seg
     INTCONbits.T0IF = 0; //Limpia bandera
     INTCONbits.T0IE = 1; //Activa interrupcion del TMR0
-    /* CONFIGURACION UART A 9600BPS 8MHz*/
-    TXSTAbits.BRGH = 1; //Alta del Generador
-    TXSTAbits.TXEN = 1; //Activa el transmisor
-    RCSTAbits.CREN = 0; //Activa el receptor
-    RCSTAbits.SPEN = 1; //Habilita el modulo USART
-    SPBRG = 51; //Formula [8MHz/(16 * 9600)] - 1
+   
     INTCONbits.GIE = 1; //Habilitador global ISR
 }
 void taskAPP()
