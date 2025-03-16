@@ -11,7 +11,7 @@ Los archivos con extension .h y .c con mismo nombre, son procedimientos y funcio
 Los archivos con extension .hex representan el codigo de maquina generado para el PIC
 Los archivos con extension .png corresponden a una imagen de esquema de circuito
 
-Los proyectos se crearon con la version MPLABX 6.25 y el compilador XC8 3.0 version FREE
+Los proyectos se crearon con la version MPLABX 6.20 y el compilador XC8 3.0 version FREE
 Practicas de Programacion para Microcontroladores PIC16F.
 
 ## Lista de practicas desarrolladas en la Materia
@@ -27,11 +27,17 @@ El programa realiza la lectura de tres sensores de temperatura digital DS18B, a 
 </p>
 El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador dar inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms. (https://youtu.be/c5E6q9o31oM)
 
-### - P13 - Sensor de Humedad y Temperatura en LCD [APDHTNOKIA] *En Desarrollo
+### - P13 - Sensor de Humedad y Temperatura en LCD [APDISPLAYDHT] *En Desarrollo
 <p align="center">
-  <img src="/images/ap13dhtnokia.png"></img>
+  <img src="/images/ap13displaydht.png"></img>
 </p>
 Este programa muestra como utilizar la Pantalla Nokia W5110 84x48 pixeles utlizando fuente estaandar de 12x5 pixels. Se muestra en la pantalla el valor de temperatura y humedad relativa proveniente de un sensor dual DHT-11. 
+
+### - P14 - Control de LEDS inteligentes WS2812B [APWSLIGHT] *En Desarrollo
+<p align="center">
+  <img src="/images/ap14wslight.png"></img>
+</p>
+Se muestra un programa que permite el control de ocho leds inteligentes WS2812B, el cual puede ampliarse con facilidad. Se utiliza un microcontrolador PIC16F gama media operando a 20MHz utlizando instrucciones ASM para calcular los tiempos de señal necesarios. El programa dispone de dos secuencias de luz que pueden seleccionarse a travez del pulsador BUT1.  
 
 Adjunto el siguiente link que muestra como compilar estos ejemplos en MPLABX <br />
 [![](http://img.youtube.com/vi/w-GRu89glrg/0.jpg)](http://www.youtube.com/watch?v=w-GRu89glrg "Compilar en MPLABX")
