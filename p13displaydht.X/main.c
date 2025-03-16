@@ -11,23 +11,6 @@ uint8_t buffer[5];
 void taskAPP(void);
 void taskLED(void);
 void MCUSetup(void);
-void putch(char byte)
-{
-    while(PIR1bits.TXIF == 0) {};
-    TXREG = byte; 
-}
-void printHEX(uint8_t val)
-{
-    uint8_t res; 
-    res = val >> 4;
-    if(res > 9) res += 0x37;
-    else res += 0x30;
-    putch(res);
-    res = 0x0F & val;
-    if(res > 9) res += 0x37;
-    else res += 0x30;
-    putch(res);
-}
 void __interrupt() isr(void)
 {
     if(INTCONbits.T0IF)
@@ -195,3 +178,4 @@ void taskLED(void) //Blink led task
     }
     if(cnt == 200) LED1pin = 0;
 }
+
