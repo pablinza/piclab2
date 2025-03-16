@@ -40,6 +40,7 @@ Este programa muestra como utilizar la Pantalla Nokia W5110 84x48 pixeles utliza
 Se muestra un programa que permite el control de ocho leds inteligentes WS2812B, el cual puede ampliarse con facilidad. Se utiliza un microcontrolador PIC16F gama media operando a 20MHz utlizando instrucciones ASM para calcular los tiempos de señal necesarios. El programa dispone de dos secuencias de luz que pueden seleccionarse a travez del pulsador BUT1.  
 
 Adjunto el siguiente link que muestra como compilar estos ejemplos en MPLABX <br />
+
 [![](http://img.youtube.com/vi/w-GRu89glrg/0.jpg)](http://www.youtube.com/watch?v=w-GRu89glrg "Compilar en MPLABX")
 
 
