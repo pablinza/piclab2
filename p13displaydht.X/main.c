@@ -145,15 +145,6 @@ void taskAPP()
                     PCDWriteNum(DHT.tem,2);
                     PCDWriteChar('.');
                     PCDWriteNum(DHT.temr,1);
-                    /*putch('1');
-                    putch('>');
-                    printHEX(buffer[0]);
-                    printHEX(buffer[1]);
-                    printHEX(buffer[2]);
-                    printHEX(buffer[3]);
-                    printHEX(buffer[4]);
-                    putch('\r');
-                    putch('\n');*/
                 }
                 state = 6; //proxima espera
             }
