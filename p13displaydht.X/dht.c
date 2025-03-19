@@ -21,7 +21,11 @@ void DHTSetup(uint8_t devmask)
     DHT_PORT &= ~devmask; //Set port pins in low level
     DHT_TRIS |= devmask; //Set port pins in tri-state input
 }
-
+/* uint8_t DHTStart(void)
+ * Set Low Level for Start Pulse required by DHT
+ * devmask: sensor pin mask definitions to read
+ * type: input to indicate device mode DHT11 or DHT22
+ * return: 1=Start Pulse completed 0=Waiting*/
 uint8_t DHTStart(uint8_t devmask, uint8_t type)
 {
     static uint8_t state = 0;
