@@ -27,11 +27,11 @@ El programa realiza la lectura de tres sensores de temperatura digital DS18B, a 
 </p>
 El programa utiliza un controlador de segmentos TM1638 con cuatro digitos tipo reloj. Permite el ajustar el tiempo en MM:SS utilizando un encoder rotativo y con un pulsador dar inicio a la cuentra regresiva, el programa utiliza el temporizador TMR0 para generar intervalos de 1ms. (https://youtu.be/c5E6q9o31oM)
 
-### - P13 - Sensor de Humedad y Temperatura en LCD [APDISPLAYDHT] *En Desarrollo
+### - P13 - Sensor de Humedad y Temperatura en LCD [APDISPLAYDHT]
 <p align="center">
   <img src="/images/ap13displaydht.png"></img>
 </p>
-Este programa muestra como utilizar la Pantalla Nokia W5110 84x48 pixeles utlizando fuente estaandar de 12x5 pixels. Se muestra en la pantalla el valor de temperatura y humedad relativa proveniente de un sensor dual DHT-11. 
+El programa de este circuito lleva a cabo la lectura de tres sensores DHT Humedad relativa y Temperatura, cuya informacion se visualiza en una Pantalla LCD de 48x84 pixeles basada en controlador PCD8544 (Nokia W5110) utilizado una fuente estandar de 7x5. Los datos del Sensor DHT11 muestran datos enteros mientras que para el modelo DHT22 se presenta el valor entero y decimal.  
 
 ### - P14 - Control de LEDS inteligentes WS2812B [APWSLIGHT] *En Desarrollo
 <p align="center">
