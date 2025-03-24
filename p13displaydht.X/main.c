@@ -11,29 +11,29 @@ uint8_t buffer[5];
 void taskAPP(void);
 void taskLED(void);
 void MCUSetup(void);
-void __interrupt() isr(void)
+void __interrupt() isr(void) 
 {
-    if(INTCONbits.T0IF)
+    if(INTCONbits.T0IF) //Intervalos de 1ms
     {
         TMR0 += 130; 
         INTCONbits.T0IF = 0; 
-        tickms = 1;
+        tickms = 1; //Activa bandera
     }
 }
 
 void main(void) 
 {
-    MCUSetup();
+    MCUSetup(); //Configuracion del PIC
     DHTSetup(DHT_DEV1|DHT_DEV2|DHT_DEV3); //Definicion de dht.h
     __delay_ms(2000);
-    PCDSetup();
+    PCDSetup(); //Configuracion de la Pantalla PCD
     while(1)
     {
-        if(tickms)
+        if(tickms) //Validacion en cada 1ms
         {
-            tickms = 0;
-            taskLED();
-            taskAPP();
+            tickms = 0; //Limpia bandera
+            taskLED(); //Para destellar el led
+            taskAPP(); //Lectura de sensores y envio a pantalla
         }
     }
 }
@@ -56,7 +56,7 @@ void MCUSetup(void)
    
     INTCONbits.GIE = 1; //Habilitador global ISR
 }
-void taskAPP()
+void taskAPP() //Se ejecuta cada 1ms
 {
     static uint8_t state = 0;
     static uint16_t cnt = 0;
@@ -159,7 +159,7 @@ void taskAPP()
         
     }
 }
-void taskLED(void) //Blink led task
+void taskLED(void) //Blink led task se ejecuta cada 1ms
 {
     static uint16_t cnt = 0;
     if(++cnt > 999) 
