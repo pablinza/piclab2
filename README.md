@@ -33,9 +33,15 @@ El programa utiliza un controlador de segmentos TM1637 con cuatro digitos tipo r
 </p>
 El programa de este circuito lleva a cabo la lectura de tres sensores DHT Humedad relativa y Temperatura, cuya informacion se visualiza en una Pantalla LCD de 48x84 pixeles basada en controlador PCD8544 (Nokia W5110) utilizado una fuente estandar de 7x5. Los datos del Sensor DHT11 muestran datos enteros mientras que para el modelo DHT22 se presenta el valor entero y decimal. (https://youtu.be/qyUtO6ff_m4) 
 
-### - P14 - Control de LEDS inteligentes WS2812B [APWSLIGHT] *En Desarrollo
+### - P14 - Celda de Carga con PGA HX711 [APLOADCELL] *En Desarrollo
 <p align="center">
-  <img src="/images/ap14wslight.png"></img>
+  <img src="/images/ap14loadcell.png"></img>
+</p>
+Este circuito realiza la lectura de una celda de carga utilizando un amplificador HX711 y pantallas de siete segmentos modular LTC-5623 tipo anodo comun, el programa reside en un PIC16F887 que recive los datos digitales y determina la relacion de gramos por fuerza en el rango 0000 - 5000 gr. Es necesario efectuar una medicion refencial con peso conocido por unica vez a cada celda. 
+
+### - P15 - Control de LEDS inteligentes WS2812B [APWSLIGHT] *En Desarrollo
+<p align="center">
+  <img src="/images/ap15wslight.png"></img>
 </p>
 Se muestra un programa que permite el control de ocho leds inteligentes WS2812B, el cual puede ampliarse con facilidad. Se utiliza un microcontrolador PIC16F gama media operando a 20MHz utlizando instrucciones ASM para calcular los tiempos de señal necesarios. El programa dispone de dos secuencias de luz que pueden seleccionarse a travez del pulsador BUT1.  
 
