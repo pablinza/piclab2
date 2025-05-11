@@ -33,7 +33,7 @@ El programa utiliza un controlador de segmentos TM1637 con cuatro digitos tipo r
 </p>
 El programa de este circuito lleva a cabo la lectura de tres sensores DHT Humedad relativa y Temperatura, cuya informacion se visualiza en una Pantalla LCD de 48x84 pixeles basada en controlador PCD8544 (Nokia W5110) utilizado una fuente estandar de 7x5. Los datos del Sensor DHT11 muestran datos enteros mientras que para el modelo DHT22 se presenta el valor entero y decimal. (https://youtu.be/qyUtO6ff_m4) 
 
-### - P14 - Celda de Carga con PGA HX711 [APLOADCELL] *En Desarrollo
+### - P14 - Celda de Carga con PGA HX711 [APLOADCELL]
 <p align="center">
   <img src="/images/ap14loadcell.png"></img>
 </p>
