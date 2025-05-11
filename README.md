@@ -37,7 +37,7 @@ El programa de este circuito lleva a cabo la lectura de tres sensores DHT Humeda
 <p align="center">
   <img src="/images/ap14loadcell.png"></img>
 </p>
-Este circuito realiza la lectura de una celda de carga utilizando un amplificador HX711 y pantallas de siete segmentos modular LTC-5623 tipo anodo comun, el programa reside en un PIC16F887 que recive los datos digitales y determina la relacion de gramos por fuerza en el rango 0000 - 5000 gr. Es necesario efectuar una medicion refencial con peso conocido por unica vez a cada celda. 
+Este circuito realiza la lectura de una celda de carga utilizando un amplificador HX711 y pantallas de siete segmentos modular LTC-5623 tipo anodo comun, el programa reside en un PIC16F887 que recibe los datos digitales y determina la relacion de gramos por fuerza en el rango 0000 - 5000 gr. Es necesario efectuar una medicion referencial con peso conocido por unica vez a cada celda. (https://youtu.be/Iq21xI10iW8) 
 
 ### - P15 - Control de LEDS inteligentes WS2812B [APWSLIGHT] *En Desarrollo
 <p align="center">
