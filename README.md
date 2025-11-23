@@ -36,9 +36,10 @@ Este circuito realiza la lectura de una celda de carga utilizando un amplificado
 <p align="center">
   <img src="/images/ap15wslight.png"></img>
 </p>
-Se muestra un programa que permite el control de ocho leds inteligentes WS2812B, el cual puede ampliarse con facilidad. Se utiliza un microcontrolador PIC16F gama media operando a 20MHz utlizando instrucciones ASM para calcular los tiempos de señal necesarios. El programa dispone de dos secuencias de luz que pueden seleccionarse a travez del pulsador BUT1.  
+Se muestra un programa que permite el control de ocho leds inteligentes WS2812B, el cual puede ampliarse con facilidad. Se utiliza un microcontrolador PIC16F gama media operando a 20MHz utlizando instrucciones ASM para calcular los tiempos de señal necesarios. El programa dispone de dos secuencias de luz que pueden seleccionarse a travez del pulsador BUT1. (https://youtu.be/8OgDgw604Ic)
+<br />
 
-Adjunto el siguiente link que muestra como compilar estos ejemplos en MPLABX <br />
+Adjunto el siguiente link que muestra como compilar estos ejemplos en MPLABX [<br />](https://youtu.be/8OgDgw604Ic)
 
 [![](http://img.youtube.com/vi/w-GRu89glrg/0.jpg)](http://www.youtube.com/watch?v=w-GRu89glrg "Compilar en MPLABX")
 
